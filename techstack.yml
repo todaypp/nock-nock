@@ -1,0 +1,81 @@
+repo_name: todaypp/nock-nock
+report_id: bb7341747629adff8c4c5741a64756b1
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-23T13:14:44+00:00'
+requested_by: afollestad
+provider: github
+branch: master
+detected_tools_count: 6
+tools:
+- name: Kotlin
+  description: Statically typed Programming Language targeting JVM and JavaScript
+  website_url: https://kotlinlang.org/
+  open_source: true
+  hosted_saas: true
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/3750/pCfEzr6L.png
+  detection_source_url: https://github.com/todaypp/nock-nock
+  detection_source: Repo Metadata
+- name: Android SDK
+  description: An SDK that provides you the API libraries and developer tools necessary
+    to build, test, and debug apps for Android.
+  website_url: http://developer.android.com
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1010/m8jf0po4imu8t5eemjdd.png
+  detection_source_url: https://github.com/todaypp/nock-nock/blob/master/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: Aidan Follestad
+  last_updated_on: 2019-01-07 18:52:04.000000000 Z
+- name: Crashlytics
+  description: The world's most powerful, yet lightest weight crash reporting solution.
+    Free for everybody.
+  website_url: http://crashlytics.com
+  open_source: false
+  hosted_saas: true
+  category: Monitoring
+  sub_category: Mobile Error Monitoring
+  image_url: https://img.stackshare.io/service/264/Q3LJPRGx.png
+  detection_source_url: https://github.com/todaypp/nock-nock/blob/master/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: Aidan Follestad
+  last_updated_on: 2019-01-07 18:52:04.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/todaypp/nock-nock
+  detection_source: Repo Metadata
+- name: Gradle
+  description: A powerful build system for the JVM
+  website_url: https://www.gradle.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source_url: https://github.com/todaypp/nock-nock/blob/master/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: Aidan Follestad
+  last_updated_on: 2019-03-14 20:55:19.000000000 Z
+- name: Android OS
+  description: An open source mobile operating system by Google
+  website_url: https://www.android.com
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/9586/ZvmtaSXW_400x400.jpg
+  detection_source_url: https://github.com/todaypp/nock-nock/blob/master/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: Aidan Follestad
+  last_updated_on: 2019-01-07 18:52:04.000000000 Z
